@@ -12,6 +12,25 @@ export const HeaderBackground = styled.img`
 
 export const FooterBackground = styled.div`
     height: 10vh;
-    width: 100%;
+    width: 98%;
     border: 2px solid #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+`
+
+export const ImageContainer = styled.div`
+    height: 8vh;
+    width: 16vw;
+    border: 1px solid black;
+`
+
+export const AdjustDAAD = styled.img`
+    height: 8vh;
+    width: 5vw;
+`
+
+export const AdjustDAADLogo = styled.img`
+    height: 8vh;
+    width: 10vw;
 `
