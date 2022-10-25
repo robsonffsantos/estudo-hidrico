@@ -13,5 +13,5 @@ export const HeaderBackground = styled.img`
 export const FooterBackground = styled.div`
     height: 10vh;
     width: 100%;
-    border: 1px solid black;
+    border: 2px solid #ced4da;
 `
