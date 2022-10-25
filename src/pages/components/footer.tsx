@@ -24,6 +24,9 @@ const Footer = () => {
             <ImageContainer>
                 <AdjustUCS src={UCS} />
             </ImageContainer>
+            <ImageContainer>
+                <AdjustATB src={Embrapa}/>
+            </ImageContainer>
         </FooterBackground>
     )
 }
