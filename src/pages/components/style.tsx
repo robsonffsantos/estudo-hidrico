@@ -43,3 +43,18 @@ export const AdjustUCS = styled.img`
     height: 8vh;
     width: 16vw;
 `
+
+export const Brasao = styled.img`
+    height: 5vh;
+    width: 5vw;
+`
+
+export const Prefeituras = styled.div`
+    height: 8vh;
+    width: 24vw;
+`
+
+export const Cidade = styled.div`
+    height: 3vh;
+    width: 5vw;
+`
