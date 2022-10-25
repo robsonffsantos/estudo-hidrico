@@ -1,8 +1,8 @@
-import HeaderBackground from '../../assets/dropsBackground.png'
+import { HeaderBackground } from './style'
 
 const Header = () => {
     return (
-        <img src={HeaderBackground} />
+        <HeaderBackground />
     )
 }
 
