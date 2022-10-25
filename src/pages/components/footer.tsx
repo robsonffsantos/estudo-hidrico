@@ -1,4 +1,4 @@
-import { AdjustATB, AdjustDAAD, AdjustDAADLogo, FooterBackground, ImageContainer } from "./style"
+import { AdjustATB, AdjustDAAD, AdjustDAADLogo, AdjustUCS, FooterBackground, ImageContainer } from "./style"
 import DAAD from '../../assets/DAAD.png'
 import DAADLogo from '../../assets/DAAD-logo.png'
 import ATB from '../../assets/ATB.png'
@@ -20,6 +20,9 @@ const Footer = () => {
             </ImageContainer>
             <ImageContainer>
                 <AdjustATB src={ATB} />
+            </ImageContainer>
+            <ImageContainer>
+                <AdjustUCS src={UCS} />
             </ImageContainer>
         </FooterBackground>
     )

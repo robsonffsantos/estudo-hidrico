@@ -38,3 +38,8 @@ export const AdjustATB = styled.img`
     height: 8vh;
     width: 10vw;
 `
+
+export const AdjustUCS = styled.img`
+    height: 8vh;
+    width: 16vw;
+`
