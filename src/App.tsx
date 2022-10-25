@@ -1,9 +1,10 @@
+import Home from "./pages/home"
 
 const App = () => {
   return (
-    <UserProvider>
-      <Router />
-    </UserProvider>
+    <div>
+      <Home/>
+    </div>
   )
 }
 
