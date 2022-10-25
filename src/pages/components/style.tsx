@@ -22,7 +22,6 @@ export const FooterBackground = styled.div`
 export const ImageContainer = styled.div`
     height: 8vh;
     width: 16vw;
-    border: 1px solid black;
 `
 
 export const AdjustDAAD = styled.img`
@@ -31,6 +30,11 @@ export const AdjustDAAD = styled.img`
 `
 
 export const AdjustDAADLogo = styled.img`
+    height: 8vh;
+    width: 10vw;
+`
+
+export const AdjustATB = styled.img`
     height: 8vh;
     width: 10vw;
 `
