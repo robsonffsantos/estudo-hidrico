@@ -1,4 +1,4 @@
-import { AdjustATB, AdjustDAAD, AdjustDAADLogo, AdjustUCS, FooterBackground, ImageContainer } from "./style"
+import { AdjustATB, AdjustDAAD, AdjustDAADLogo, AdjustUCS, Brasao, Cidade, Conjunto, FooterBackground, ImageContainer, Prefeituras } from "./style"
 import DAAD from '../../assets/DAAD.png'
 import DAADLogo from '../../assets/DAAD-logo.png'
 import ATB from '../../assets/ATB.png'
@@ -30,6 +30,32 @@ const Footer = () => {
             <ImageContainer>
                 <AdjustUCS src={Emater} />
             </ImageContainer>
+            <Prefeituras>
+                <Conjunto>
+                    <Brasao src={Serafina} />
+                    <Cidade>
+                        Prefeitura de Serafina Corrêa
+                    </Cidade>
+                </Conjunto>
+                <Conjunto>
+                    <Brasao src={US} />
+                    <Cidade>
+                        Prefeitura de União da Serra
+                    </Cidade>
+                </Conjunto>
+                <Conjunto>
+                    <Brasao src={Montauri} />
+                    <Cidade>
+                        Prefeitura de Montauri
+                    </Cidade>
+                </Conjunto>
+                <Conjunto>
+                    <Brasao src={Guapore} />
+                    <Cidade>
+                        Prefeitura de Guaporé
+                    </Cidade>
+                </Conjunto>
+            </Prefeituras>
         </FooterBackground>
     )
 }

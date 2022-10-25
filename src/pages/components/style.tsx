@@ -16,12 +16,14 @@ export const FooterBackground = styled.div`
     border: 2px solid #ced4da;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
 `
 
 export const ImageContainer = styled.div`
     height: 8vh;
     width: 16vw;
+    display: flex;
+    justify-content: center;
 `
 
 export const AdjustDAAD = styled.img`
@@ -46,15 +48,27 @@ export const AdjustUCS = styled.img`
 
 export const Brasao = styled.img`
     height: 5vh;
-    width: 5vw;
+    width: 3vw;
 `
 
 export const Prefeituras = styled.div`
     height: 8vh;
-    width: 24vw;
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
 `
 
 export const Cidade = styled.div`
     height: 3vh;
     width: 5vw;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+`
+
+export const Conjunto = styled.div`
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
 `
