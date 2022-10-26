@@ -55,3 +55,11 @@ export const LargeContainer = styled.div`
 export const SideContainer = styled.div`
     
 `
+
+export const RowContainer = styled.div`
+    display: flex;
+`
+export const PicsOfLargeContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+`

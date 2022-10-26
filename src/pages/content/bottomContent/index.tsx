@@ -1,4 +1,6 @@
-import { BottomContainer, MainContainer, MenuContainer, ThreeContainer, LastContainer, TwoContainer, LargeContainer, SmallContainer, SideContainer } from "./styles"
+import { BottomContainer, MainContainer, MenuContainer, ThreeContainer, LastContainer, TwoContainer, LargeContainer, SmallContainer, SideContainer, RowContainer, PicsOfLargeContainer } from "./styles"
+import farmer from '../../../assets/farmer.png'
+import water from '../../../assets/water.png'
 
 
 const BottomContent = () => {
@@ -19,7 +21,21 @@ const BottomContent = () => {
                             </ul>
                         </LargeContainer>
                         <SmallContainer>
-                            Fazendas
+                            Fazendas avaliadas
+                            <RowContainer>
+                                <PicsOfLargeContainer>
+                                    <img src={farmer} />
+                                    <ul>
+                                        <li> 115 fazendas </li>
+                                    </ul>
+                                </PicsOfLargeContainer>
+                                <PicsOfLargeContainer>
+                                    <img src={water} />
+                                    <ul>
+                                        <li> Bacia Hidrográfica Lajeado Tacongava (Brasil) </li>
+                                    </ul>
+                                </PicsOfLargeContainer>
+                            </RowContainer>
                         </SmallContainer>
                     </TwoContainer>
                     <SideContainer>
