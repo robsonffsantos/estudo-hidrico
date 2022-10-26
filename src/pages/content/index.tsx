@@ -1,10 +1,14 @@
-import { MainContainer } from "./styles"
-
+import { Logo, LogoContainer, MainContainer, TopContainer } from "./styles"
+import logo from '../../assets/logo.jpg'
 
 export const Content = () => {
     return (
         <MainContainer>
-           <div>Cima</div>
+           <TopContainer>
+              <LogoContainer>
+                <Logo src={logo} />
+              </LogoContainer>
+           </TopContainer>
            <div>Baixo</div>
         </MainContainer>
     )
