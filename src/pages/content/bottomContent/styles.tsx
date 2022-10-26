@@ -20,11 +20,14 @@ export const MainContainer = styled.div`
     width: 80%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 90%;
 `
 
 export const ThreeContainer = styled.div`
     display: flex;
+    height: 70%;
+    width: 90%;
     border: 1px solid black;
 `
 
@@ -36,6 +39,8 @@ export const TwoContainer = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100%;
+    width: 40%;
     border: 1px solid blue;
 `
 
