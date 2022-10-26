@@ -28,7 +28,6 @@ export const ThreeContainer = styled.div`
     display: flex;
     height: 70%;
     width: 90%;
-    border: 1px solid black;
 `
 
 export const LastContainer = styled.div`
@@ -41,17 +40,27 @@ export const TwoContainer = styled.div`
     justify-content: space-between;
     height: 100%;
     width: 40%;
-    border: 1px solid blue;
     align-items: center;
 `
 
 export const SmallContainer = styled.div`
-    width: 80%;
-    border: 1px solid black;
+    width: 79%;
+    border: 2px solid #ced4da;
+    height: 30%;
 `
 
 export const LargeContainer = styled.div`
-    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 1vmax 0 0.75vmax;
+    font-weight: 200;
+    font-size: 14px;
+    text-align: justify;
+    align-items: center;
+    color: #404040;
+    border: 2px solid #ced4da;
+    width: 75%;
+    height: 60%;
 `
 
 export const SideContainer = styled.div`
@@ -74,4 +83,11 @@ export const PicsOfLargeContainer = styled.div`
 export const PicsInsideContainer = styled.img`
     height: 5vh;
     width: 3.5vw;
+`
+
+export const Title = styled.h3`
+    font-weight: 200;
+    font-size: 18px;
+    text-align: center;
+    /* width: 85%; */
 `
