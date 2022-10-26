@@ -11,7 +11,12 @@ const BottomContent = () => {
                 <ThreeContainer>
                     <TwoContainer>
                         <LargeContainer>
-                            Desenvolvimento
+                            Razões para o desenvolvimento deste projeto:
+                            <ul>
+                                <li> Brasil: grande produtor de proteína animal + previsão de aumento de produção </li>
+                                <li> Risco a continuidade e expansão da atividade devido as mudanças do clima (regime de chuvas) </li>
+                                <li> Necessidade de manejo hídrico para garantia da continuidade e expansão da produção animal </li>
+                            </ul>
                         </LargeContainer>
                         <SmallContainer>
                             Fazendas
