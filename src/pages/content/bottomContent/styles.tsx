@@ -42,10 +42,12 @@ export const TwoContainer = styled.div`
     height: 100%;
     width: 40%;
     border: 1px solid blue;
+    align-items: center;
 `
 
 export const SmallContainer = styled.div`
-    
+    width: 80%;
+    border: 1px solid black;
 `
 
 export const LargeContainer = styled.div`
@@ -58,8 +60,18 @@ export const SideContainer = styled.div`
 
 export const RowContainer = styled.div`
     display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid green;
 `
 export const PicsOfLargeContainer = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 50%;
+`
+
+export const PicsInsideContainer = styled.img`
+    height: 5vh;
+    width: 3.5vw;
 `
