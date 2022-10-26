@@ -30,3 +30,12 @@ export const LogoContainer = styled.div`
     align-items: center;
     justify-content: center;
 `
+
+export const Title = styled.h3`
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2vmax;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: justify;
+`
