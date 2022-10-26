@@ -1,4 +1,4 @@
-import { BottomContainer, MainContainer, MenuContainer, ThreeContainer, LastContainer, TwoContainer, LargeContainer, SmallContainer, SideContainer, RowContainer, PicsOfLargeContainer, PicsInsideContainer, Title } from "./styles"
+import { BottomContainer, MainContainer, MenuContainer, ThreeContainer, LastContainer, TwoContainer, LargeContainer, SmallContainer, SideContainer, RowContainer, PicsOfLargeContainer, PicsInsideContainer, Title, Text } from "./styles"
 import farmer from '../../../assets/farmer.png'
 import water from '../../../assets/water.png'
 
@@ -21,19 +21,15 @@ const BottomContent = () => {
                             </ul>
                         </LargeContainer>
                         <SmallContainer>
-                            Fazendas avaliadas
+                            <Title>Fazendas avaliadas</Title>
                             <RowContainer>
                                 <PicsOfLargeContainer>
                                     <PicsInsideContainer src={farmer} />
-                                    <ul>
-                                        <li> 115 fazendas </li>
-                                    </ul>
+                                    <Text>115 fazendas</Text>
                                 </PicsOfLargeContainer>
                                 <PicsOfLargeContainer>
                                     <PicsInsideContainer src={water} />
-                                    <ul>
-                                        <li> Bacia Hidrográfica Lajeado Tacongava (Brasil) </li>
-                                    </ul>
+                                        <Text>Bacia Hidrográfica Lajeado Tacongava (Brasil)</Text>
                                 </PicsOfLargeContainer>
                             </RowContainer>
                         </SmallContainer>
