@@ -1,10 +1,12 @@
+import { MainContainer } from "./styles"
 
 
 export const Content = () => {
     return (
-        <div>
-            Content
-        </div>
+        <MainContainer>
+           <div>Cima</div>
+           <div>Baixo</div>
+        </MainContainer>
     )
 }
 
