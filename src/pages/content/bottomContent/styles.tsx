@@ -5,7 +5,6 @@ export const BottomContainer = styled.div`
     flex-direction: row;
     height: 100%;
     width: 90vw;
-    border: 2px solid #ced4da;
     align-items: center;
     margin: 0.75vmax 4vw;
     justify-content: space-evenly;
@@ -13,25 +12,30 @@ export const BottomContainer = styled.div`
 
 export const MenuContainer = styled.div`
     width: 20vw;
-    border: 1px solid red;
+    height: 100%;
+    border: 2px solid #ced4da;
 `
 
 export const MainContainer = styled.div`
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 90%;
+    justify-content: space-between;
+    height: 100%;
 `
 
 export const ThreeContainer = styled.div`
     display: flex;
     height: 70%;
-    width: 90%;
+    width: 100%;
 `
 
 export const LastContainer = styled.div`
     border: 2px solid #ced4da;
+    width: 97%;
+    height: 27%;
+    margin-left: 2vw;
 `
 
 export const TwoContainer = styled.div`
@@ -66,7 +70,8 @@ export const LargeContainer = styled.div`
 `
 
 export const SideContainer = styled.div`
-    
+    border: 2px solid #ced4da;
+    width: 90%;
 `
 
 export const RowContainer = styled.div`
