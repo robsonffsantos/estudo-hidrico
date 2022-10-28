@@ -1,13 +1,14 @@
 import { BottomContainer, MainContainer, MenuContainer, ThreeContainer, LastContainer, TwoContainer, LargeContainer, SmallContainer, SideContainer, RowContainer, PicsOfLargeContainer, PicsInsideContainer, Title, Text } from "./styles"
 import farmer from '../../../assets/farmer.png'
 import water from '../../../assets/water.png'
+import Menu from '../menu/index'
 
 
 const BottomContent = () => {
     return (
         <BottomContainer>
             <MenuContainer>
-                Menu
+                <Menu />
             </MenuContainer>
             <MainContainer>
                 <ThreeContainer>
