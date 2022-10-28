@@ -31,11 +31,12 @@ export const MainOption = styled.div`
     align-items: center;
     font-size: 14px;
     padding: 0 0.5vw; 
+    font-weight: 500;
 `
 
 export const ThreeOption = styled.div`
     border: 1px solid #ced4da;
-    width: 70%;
+    width: 72%;
     height: 20%;
     display: flex;
     justify-content: center;
@@ -60,6 +61,7 @@ export const Option = styled.div`
     display: flex;
     align-items: center;
     padding-left: 1vw;
+    font-weight: 500;
 `
 
 export const Icons = styled.img`
