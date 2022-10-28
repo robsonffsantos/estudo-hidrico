@@ -27,7 +27,7 @@ export const MainOption = styled.div`
     width: 75%;
     height: 5%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     font-size: 14px;
 `
@@ -35,18 +35,33 @@ export const MainOption = styled.div`
 export const ThreeOption = styled.div`
     border: 1px solid #ced4da;
     width: 75%;
-    height: 25%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75vmax;
+`
+
+export const ThreeOptionMenu = styled.div`
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     font-size: 14px;
+    margin-left : 1vw;
 `
 
 export const Option = styled.div`
     border: 1px solid #ced4da;
-    width: 70%;
-    height: 20%;
+    width: 90%;
+    height: 25%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    padding-left: 1vw;
+`
+
+export const Icons = styled.img`
+    height: 2vh;
+    width: 1.2vw;
 `
