@@ -27,14 +27,15 @@ export const MainOption = styled.div`
     width: 75%;
     height: 5%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     font-size: 14px;
+    padding: 0 0.5vw; 
 `
 
 export const ThreeOption = styled.div`
     border: 1px solid #ced4da;
-    width: 75%;
+    width: 70%;
     height: 20%;
     display: flex;
     justify-content: center;
