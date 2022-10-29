@@ -2,6 +2,7 @@ import { BottomContainer, MainContainer, MenuContainer, ThreeContainer, LastCont
 import farmer from '../../../assets/farmer.png'
 import water from '../../../assets/water.png'
 import Menu from '../menu/index'
+import RightSide from "../rightSideContent"
 
 
 const BottomContent = () => {
@@ -36,7 +37,7 @@ const BottomContent = () => {
                         </SmallContainer>
                     </TwoContainer>
                     <SideContainer>
-                        Lado
+                        <RightSide />
                     </SideContainer>
                 </ThreeContainer>
                 <LastContainer>
