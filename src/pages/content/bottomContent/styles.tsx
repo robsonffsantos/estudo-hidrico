@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const BottomContainer = styled.div`
     display: flex;
     flex-direction: row;
-    height: 60%;
+    height: 70%;
     width: 90%;
     align-items: center;
     margin: 0.75vmax 4vw;
