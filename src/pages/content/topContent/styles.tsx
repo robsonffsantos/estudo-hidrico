@@ -15,8 +15,8 @@ export const Logo = styled.img`
 `
 
 export const LogoContainer = styled.div`
-    height: 15vh;
-    width: 11vw;
+    height: 100%;
+    width: 20%;
     background-color: #ced4da;
     border: 2px solid #ced4da;
     display: flex;

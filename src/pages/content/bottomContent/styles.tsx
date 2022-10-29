@@ -3,15 +3,15 @@ import styled from "styled-components"
 export const BottomContainer = styled.div`
     display: flex;
     flex-direction: row;
-    height: 70%;
-    width: 90%;
+    height: 95%;
+    width: 91%;
     align-items: center;
     margin: 0.75vmax 4vw;
-    justify-content: space-evenly;
+    justify-content: space-around;
 `
 
 export const MenuContainer = styled.div`
-    width: 25%;
+    width: 20%;
     height: 100%;
     border: 2px solid #ced4da;
 `

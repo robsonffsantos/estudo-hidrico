@@ -5,7 +5,7 @@ export const HeaderBackground = styled.img`
     background-image: url(${background});
     background-size: contain;
     width: 100%;
-    height: 10vh;
+    height: 100%;
     display: flex;
     justify-content: center;
 `
@@ -18,7 +18,7 @@ export const FooterBackground = styled.div`
 `
 
 export const FooterContainer = styled.div`
-    height: 12vh;
+    height: 100%;
     width: 98%;
     display: flex;
     flex-direction: column;
