@@ -1,14 +1,13 @@
 import Header from "../components/header"
 import Footer from "../components/footer"
 import { MainContainer } from "./style"
+import Content from "../content"
 
 const Home = () => {
     return (
         <MainContainer>
             <Header />
-            <div>
-                Content
-            </div>
+                <Content />
             <Footer />
         </MainContainer>
     )

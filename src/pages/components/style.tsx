@@ -5,23 +5,31 @@ export const HeaderBackground = styled.img`
     background-image: url(${background});
     background-size: contain;
     width: 100%;
-    height: 10vh;
+    height: 100%;
     display: flex;
     justify-content: center;
 `
 
 export const FooterBackground = styled.div`
-    height: 10vh;
-    width: 98%;
     border: 2px solid #ced4da;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 `
 
+export const FooterContainer = styled.div`
+    height: 100%;
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+`
+
 export const ImageContainer = styled.div`
     height: 8vh;
-    width: 16vw;
+    width: 15vw;
     display: flex;
     justify-content: center;
 `
@@ -43,7 +51,7 @@ export const AdjustATB = styled.img`
 
 export const AdjustUCS = styled.img`
     height: 8vh;
-    width: 16vw;
+    width: 15vw;
 `
 
 export const Brasao = styled.img`
@@ -53,7 +61,7 @@ export const Brasao = styled.img`
 
 export const Prefeituras = styled.div`
     height: 8vh;
-    width: 20vw;
+    width: 22vw;
     display: flex;
     justify-content: space-evenly;
 `

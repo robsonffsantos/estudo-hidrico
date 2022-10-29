@@ -1,4 +1,4 @@
-import { AdjustATB, AdjustDAAD, AdjustDAADLogo, AdjustUCS, Brasao, Cidade, Conjunto, FooterBackground, ImageContainer, Prefeituras } from "./style"
+import { AdjustATB, AdjustDAAD, AdjustDAADLogo, AdjustUCS, Brasao, Cidade, Conjunto, FooterBackground, FooterContainer, ImageContainer, Prefeituras } from "./style"
 import DAAD from '../../assets/DAAD.png'
 import DAADLogo from '../../assets/DAAD-logo.png'
 import ATB from '../../assets/ATB.png'
@@ -13,50 +13,53 @@ import US from '../../assets/uniao_da_serra.png'
 
 const Footer = () => {
     return (
-        <FooterBackground>
-            <ImageContainer>
-                <AdjustDAAD src={DAAD}/>
-                <AdjustDAADLogo src={DAADLogo}/>
-            </ImageContainer>
-            <ImageContainer>
-                <AdjustATB src={ATB} />
-            </ImageContainer>
-            <ImageContainer>
-                <AdjustUCS src={UCS} />
-            </ImageContainer>
-            <ImageContainer>
-                <AdjustATB src={Embrapa}/>
-            </ImageContainer>
-            <ImageContainer>
-                <AdjustUCS src={Emater} />
-            </ImageContainer>
-            <Prefeituras>
-                <Conjunto>
-                    <Brasao src={Serafina} />
-                    <Cidade>
-                        Prefeitura de Serafina Corrêa
-                    </Cidade>
-                </Conjunto>
-                <Conjunto>
-                    <Brasao src={US} />
-                    <Cidade>
-                        Prefeitura de União da Serra
-                    </Cidade>
-                </Conjunto>
-                <Conjunto>
-                    <Brasao src={Montauri} />
-                    <Cidade>
-                        Prefeitura de Montauri
-                    </Cidade>
-                </Conjunto>
-                <Conjunto>
-                    <Brasao src={Guapore} />
-                    <Cidade>
-                        Prefeitura de Guaporé
-                    </Cidade>
-                </Conjunto>
-            </Prefeituras>
-        </FooterBackground>
+        <FooterContainer>
+            PARCEIROS
+            <FooterBackground>
+                <ImageContainer>
+                    <AdjustDAAD src={DAAD}/>
+                    <AdjustDAADLogo src={DAADLogo}/>
+                </ImageContainer>
+                <ImageContainer>
+                    <AdjustATB src={ATB} />
+                </ImageContainer>
+                <ImageContainer>
+                    <AdjustUCS src={UCS} />
+                </ImageContainer>
+                <ImageContainer>
+                    <AdjustATB src={Embrapa}/>
+                </ImageContainer>
+                <ImageContainer>
+                    <AdjustUCS src={Emater} />
+                </ImageContainer>
+                <Prefeituras>
+                    <Conjunto>
+                        <Brasao src={Serafina} />
+                        <Cidade>
+                            Prefeitura de Serafina Corrêa
+                        </Cidade>
+                    </Conjunto>
+                    <Conjunto>
+                        <Brasao src={US} />
+                        <Cidade>
+                            Prefeitura de União da Serra
+                        </Cidade>
+                    </Conjunto>
+                    <Conjunto>
+                        <Brasao src={Montauri} />
+                        <Cidade>
+                            Prefeitura de Montauri
+                        </Cidade>
+                    </Conjunto>
+                    <Conjunto>
+                        <Brasao src={Guapore} />
+                        <Cidade>
+                            Prefeitura de Guaporé
+                        </Cidade>
+                    </Conjunto>
+                </Prefeituras>
+            </FooterBackground>
+        </FooterContainer>
     )
 }
 
