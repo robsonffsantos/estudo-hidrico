@@ -12,7 +12,6 @@ export const ImageContainer = styled.div`
     flex-direction: column;
     width: 40%;
     height: 100%;
-    /* margin: 0.5vmax; */
     align-items: center;
 `
 
@@ -29,4 +28,19 @@ export const List = styled.ul`
 export const PHimg = styled.img`
     height: 10vh;
     width: 10vw;
+`
+
+export const LogoImg = styled.img`
+    height: 4vh;
+    width: 6vw;
+`
+
+export const ImageDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    width: 90%;
 `
