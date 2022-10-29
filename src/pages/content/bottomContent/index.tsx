@@ -3,7 +3,7 @@ import farmer from '../../../assets/farmer.png'
 import water from '../../../assets/water.png'
 import Menu from '../menu/index'
 import RightSide from "../rightSideContent"
-
+import BottomInfo from "../bottomContainer"
 
 const BottomContent = () => {
     return (
@@ -41,7 +41,7 @@ const BottomContent = () => {
                     </SideContainer>
                 </ThreeContainer>
                 <LastContainer>
-                    Baixo
+                    <BottomInfo />
                 </LastContainer>
             </MainContainer>
         </BottomContainer>
