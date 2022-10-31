@@ -67,6 +67,10 @@ export const LargeContainer = styled.div`
     border: 2px solid #ced4da;
     width: 75%;
     height: 60%;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 10px;
+    }
 `
 
 export const SideContainer = styled.div`
@@ -100,6 +104,10 @@ export const Title = styled.h3`
     color: #404040;
     margin-bottom: 10px;
     /* width: 85%; */
+
+    @media screen and (min-width: 1024px) {
+        font-size: 12px;
+    }
 `
 
 export const Text = styled.h5`
@@ -109,4 +117,8 @@ export const Text = styled.h5`
     font-family: Arial, Helvetica, sans-serif;
     color: #404040;
     margin-top: 5px;
+
+    @media screen and (min-width: 1024px) {
+        font-size: 10px;
+    }
 `
