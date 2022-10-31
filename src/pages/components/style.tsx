@@ -25,6 +25,14 @@ export const FooterContainer = styled.div`
     justify-content: space-evenly;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+
+    @media screen and (max-width: 1366px) {
+        font-size: 12px;
+    }
+
+    @media screen and (max-width: 1366px) {
+        font-size: 14px;
+    }
 `
 
 export const ImageContainer = styled.div`
@@ -72,6 +80,14 @@ export const Cidade = styled.div`
     text-align: center;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 7px;
+    }
+
+    @media screen and (max-width: 1366px) {
+        font-size: 8px;
+    }
 `
 
 export const Conjunto = styled.div`

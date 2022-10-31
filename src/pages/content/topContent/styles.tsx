@@ -12,11 +12,13 @@ export const TopContainer = styled.div`
 
 export const Logo = styled.img`
     z-index: 2;
+    height: 14vh;
+    width: 14vw;
 `
 
 export const LogoContainer = styled.div`
-    height: 100%;
-    width: 20%;
+    height: 15vh;
+    width: 12vw;
     background-color: #ced4da;
     border: 2px solid #ced4da;
     display: flex;
@@ -31,4 +33,8 @@ export const Title = styled.h3`
     font-weight: 200;
     font-size: 16px;
     text-align: justify;
+
+    @media screen and (max-width: 1366px) {
+        font-size: 10px;
+    }
 `

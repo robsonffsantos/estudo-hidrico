@@ -28,11 +28,20 @@ export const SecondaryContainer = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     text-align: center;
+
+    @media screen and (max-width: 1280px) {
+        font-size: 17px;
+    }
 `
 
 export const ImagePDF = styled.img`
     height: 80%;
     width: 90%;
+
+    @media screen and (max-width: 1280px) {
+        height: 100%;
+        width: 100%;
+    }
 `
 
 export const ImageONU = styled.img`
@@ -49,4 +58,14 @@ export const TerciaryContainer = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     text-align: center;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 14px;
+        padding-top: 2vh;
+    }
+
+    @media screen and (max-width: 1366px) {
+        font-size: 16px;
+        padding-top: 2vh;
+    }
 `
