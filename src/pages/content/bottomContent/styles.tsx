@@ -68,7 +68,7 @@ export const LargeContainer = styled.div`
     width: 75%;
     height: 60%;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 10px;
     }
 `
@@ -105,7 +105,7 @@ export const Title = styled.h3`
     margin-bottom: 10px;
     /* width: 85%; */
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1024px) {
         font-size: 12px;
     }
 `
@@ -118,7 +118,7 @@ export const Text = styled.h5`
     color: #404040;
     margin-top: 5px;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 10px;
     }
 `

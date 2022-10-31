@@ -26,8 +26,12 @@ export const FooterContainer = styled.div`
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 12px;
+    }
+
+    @media screen and (max-width: 1366px) {
+        font-size: 14px;
     }
 `
 
@@ -77,8 +81,12 @@ export const Cidade = styled.div`
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1024px) {
         font-size: 7px;
+    }
+
+    @media screen and (max-width: 1366px) {
+        font-size: 8px;
     }
 `
 

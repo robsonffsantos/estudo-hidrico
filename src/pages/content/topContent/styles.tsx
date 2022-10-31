@@ -18,7 +18,7 @@ export const Logo = styled.img`
 
 export const LogoContainer = styled.div`
     height: 15vh;
-    width: 20%;
+    width: 12vw;
     background-color: #ced4da;
     border: 2px solid #ced4da;
     display: flex;
@@ -34,7 +34,7 @@ export const Title = styled.h3`
     font-size: 16px;
     text-align: justify;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 10px;
     }
 `

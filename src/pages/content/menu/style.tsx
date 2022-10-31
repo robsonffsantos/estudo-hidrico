@@ -15,7 +15,7 @@ export const MainTitle = styled.div`
     font-size: 22px;
     font-weight: bolder;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 16px;
     }
 `
@@ -25,7 +25,7 @@ export const SecondaryTitle = styled.div`
     font-weight: bold;
     text-align: center;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 12px;
     }
 `
@@ -41,7 +41,7 @@ export const MainOption = styled.div`
     padding: 0 0.5vw; 
     font-weight: 500;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 10px;
     }
 `
@@ -65,7 +65,7 @@ export const ThreeOptionMenu = styled.div`
     font-size: 14px;
     margin-left : 1vw;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1366px) {
         font-size: 10px;
     }
 `

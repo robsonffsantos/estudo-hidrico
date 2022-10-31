@@ -19,7 +19,7 @@ export const Title = styled.h3`
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1024px) {
         font-size: 12px;
     }
 `
@@ -28,7 +28,7 @@ export const List = styled.ul`
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1280px) {
         font-size: 10px;
     }
 `
@@ -52,7 +52,7 @@ export const ImageDiv = styled.div`
     align-items: center;
     width: 90%;
 
-    @media screen and (min-width: 1024px) {
+    @media screen and (max-width: 1024px) {
         font-size: 10px;
     }
 `
